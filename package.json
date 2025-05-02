@@ -1,0 +1,17 @@
+{
+  "name": "bookManager",
+  "scripts": {
+    "dev": "parcel serve src/index.html --open --port 3000",
+    "build": "parcel build src/index.html --dist-dir build"
+  },
+  "devDependencies": {
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.14.4",
+    "process": "^0.11.10",
+    "util": "^0.12.5"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^3.1.10"
+  }
+}
